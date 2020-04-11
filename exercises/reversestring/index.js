@@ -32,9 +32,12 @@ function reverse(str) {
 
     //!last solution 
     str.split("").reduce((reversed, character)=>{
+        debugger;
         return character + reversed; 
     }, '');
 }
+
+reverse('asdf')
 
 
 module.exports = reverse;
